@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="64621B9E-ED1A-0B0D-0C76-7784924B94C6" name="router">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:52:07 UTC</createdTime>
+<generatorID>ABBA29C6-F7E7-DC7D-269F-97B4B3C643BD</generatorID>
+<ownerDesignName>pbd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IP_Int_1" id="15B03694-1EF3-F51A-E1E4-330F43765F0C">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:52:07 UTC</createdTime>
+<generatorID>27DB5C86-C799-5F93-6599-27B43C421AA1</generatorID>
+<ownerDesignName>pbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 CHAR</dataTypeSize>
+<ownDataTypeParameters>45 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IP_Int_2" id="C0A5F5D9-2A11-430C-5E96-430CE3A12582">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:52:07 UTC</createdTime>
+<generatorID>01A56923-1709-0458-568A-E66DEF735551</generatorID>
+<ownerDesignName>pbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 CHAR</dataTypeSize>
+<ownDataTypeParameters>45 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IP_Int_3" id="328C3197-764A-F0D0-949B-8FE68D526039">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:52:07 UTC</createdTime>
+<generatorID>7CB31C28-135D-9773-F5B9-11BF00219B8A</generatorID>
+<ownerDesignName>pbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 CHAR</dataTypeSize>
+<ownDataTypeParameters>45 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IP_Int_4" id="E6978927-EFD0-15A3-D29B-D6E5BCFB132E">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:52:07 UTC</createdTime>
+<generatorID>B8E87F6C-69A7-DC57-031C-79FC33DEAAA6</generatorID>
+<ownerDesignName>pbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 CHAR</dataTypeSize>
+<ownDataTypeParameters>45 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="switch_MAC" id="EED6AFDB-9521-AA42-2F52-8C99A6ED4A12">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:52:07 UTC</createdTime>
+<generatorID>D5B7DD33-757B-A07F-9E13-FF3039FD8C72</generatorID>
+<ownerDesignName>pbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99483E4B-7EC4-BBE1-E9BF-BB0E3C117EC2" referredColumn="D0F53355-B26F-E1FB-EC14-1EA49A1401EB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="447A29F5-4F3E-8387-11C5-E5F1F1568343" name="router_PK">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:52:07 UTC</createdTime>
+<generatorID>E8624C92-BEDE-AB04-0C6E-4DB18AF3BE84</generatorID>
+<ownerDesignName>pbd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EED6AFDB-9521-AA42-2F52-8C99A6ED4A12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5EF3A01-9DA4-44C7-7993-E4D8090000C8" name="router_IP_Int_1_UN">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:52:07 UTC</createdTime>
+<generatorID>C1DB5F02-E24E-5D94-880A-3035E2D1A12D</generatorID>
+<ownerDesignName>pbd</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15B03694-1EF3-F51A-E1E4-330F43765F0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="660E5D5F-5ADF-1E3D-B571-F995BE91BC09" name="router_IP_Int_2_UN">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:52:07 UTC</createdTime>
+<generatorID>31B6BFA1-638A-BE18-3CEF-E1DBCC5256C5</generatorID>
+<ownerDesignName>pbd</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0A5F5D9-2A11-430C-5E96-430CE3A12582"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C1AA989D-BB61-BA17-3339-A0DA69696235" name="router_IP_Int_3_UN">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:52:07 UTC</createdTime>
+<generatorID>5A3F3636-7EE0-2107-6B6A-6F44602CF71B</generatorID>
+<ownerDesignName>pbd</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="328C3197-764A-F0D0-949B-8FE68D526039"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="68A6714B-0F2C-1A5B-9BCA-177B7761133E" name="router_IP_Int_4_UN">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:52:07 UTC</createdTime>
+<generatorID>239C9B7A-E1E6-2D53-A026-3763D17A64B8</generatorID>
+<ownerDesignName>pbd</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6978927-EFD0-15A3-D29B-D6E5BCFB132E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6306E2BF-9B7D-E617-0DB9-F59225589F91" name="router_MAC_UN">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:52:07 UTC</createdTime>
+<generatorID>32B4956E-F517-7A5B-A72D-D2115C8AA921</generatorID>
+<ownerDesignName>pbd</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EED6AFDB-9521-AA42-2F52-8C99A6ED4A12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="09F349F0-20E5-7B62-0CE2-1E9E3BA5580B" name="router_switch_FK">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:52:07 UTC</createdTime>
+<generatorID>A048B1C7-E101-80B7-6780-9331E83CBF95</generatorID>
+<ownerDesignName>pbd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EED6AFDB-9521-AA42-2F52-8C99A6ED4A12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

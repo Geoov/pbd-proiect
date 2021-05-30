@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1E367BEC-3372-9AAF-7A0C-A244D6E709BB" name="access_point_bridge">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:15:13 UTC</createdTime>
+<ownerDesignName>pbd</ownerDesignName>
+<engineerTo>
+<item key="9E4ED1EA-72B2-8AD6-1BE0-3319A0BC996C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ESSID" id="56194766-B8F1-586F-2483-CBAA90F19B1F">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:48:46 UTC</createdTime>
+<ownerDesignName>pbd</ownerDesignName>
+<engineerTo>
+<item key="9E4ED1EA-72B2-8AD6-1BE0-3319A0BC996C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 CHAR</dataTypeSize>
+<ownDataTypeParameters>45 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BSSID" id="E6D369A8-A17C-FBB1-1971-0D5973966844">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:15:13 UTC</createdTime>
+<ownerDesignName>pbd</ownerDesignName>
+<importedID>4D087EA8-5189-7478-1407-EC9F2214C62C</importedID>
+<engineerTo>
+<item key="9E4ED1EA-72B2-8AD6-1BE0-3319A0BC996C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0C145CA9-8A22-C953-6591-03CACF8B2814" name="BSSID UK">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:15:13 UTC</createdTime>
+<ownerDesignName>pbd</ownerDesignName>
+<engineerTo>
+<item key="9E4ED1EA-72B2-8AD6-1BE0-3319A0BC996C" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>E6D369A8-A17C-FBB1-1971-0D5973966844</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="592551AD-D0C2-741A-2356-926FE4038690" name="access_point_bridge PK">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:48:53 UTC</createdTime>
+<ownerDesignName>pbd</ownerDesignName>
+<engineerTo>
+<item key="9E4ED1EA-72B2-8AD6-1BE0-3319A0BC996C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>56194766-B8F1-586F-2483-CBAA90F19B1F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

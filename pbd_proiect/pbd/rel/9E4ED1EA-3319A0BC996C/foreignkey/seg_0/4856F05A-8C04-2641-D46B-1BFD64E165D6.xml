@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4856F05A-8C04-2641-D46B-1BFD64E165D6" containerWithKeyObject="EED183CB-7988-857B-29E2-EF834AA91052" localFKIndex="38AE48CB-2E69-8F0A-0E16-601C6B185F24" name="server_switch_FK">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:52:07 UTC</createdTime>
+<generatorID>F921C921-B695-6243-9A4E-0E548670F53D</generatorID>
+<ownerDesignName>pbd</ownerDesignName>
+<referredTableLongName>switch</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6E40C1FD-AA81-746C-DBDD-ED6F6F6A0325</referredTableID>
+<keyObject>F93444EE-19BF-70F5-84FD-97495097DB25</keyObject>
+<referredKeyID>F93444EE-19BF-70F5-84FD-97495097DB25</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MAC</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

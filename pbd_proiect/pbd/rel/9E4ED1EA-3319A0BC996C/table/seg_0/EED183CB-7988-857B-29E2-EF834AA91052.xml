@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EED183CB-7988-857B-29E2-EF834AA91052" name="server">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:52:07 UTC</createdTime>
+<generatorID>EA3A419E-DBB6-4962-6C57-17EF69099C30</generatorID>
+<ownerDesignName>pbd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IP" id="9147E9A6-508B-037C-B65F-2EECD81587C3">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:52:07 UTC</createdTime>
+<generatorID>9D6244EA-432E-EE8E-5058-8DD1A2B4A3EE</generatorID>
+<ownerDesignName>pbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 CHAR</dataTypeSize>
+<ownDataTypeParameters>45 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="server_type" id="C1A9E5AC-209B-B785-8E09-E021F86ABD66">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:52:07 UTC</createdTime>
+<generatorID>1C6FD9DE-44F6-70FA-29AB-ED09F4849AA0</generatorID>
+<ownerDesignName>pbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 CHAR</dataTypeSize>
+<ownDataTypeParameters>45 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OS" id="C23B5CC6-6ED9-77B7-0176-1DBB4C246E1F">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:52:07 UTC</createdTime>
+<generatorID>742C6DEF-9446-EF03-4826-5740D0DCA417</generatorID>
+<ownerDesignName>pbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 CHAR</dataTypeSize>
+<ownDataTypeParameters>45 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="switch_MAC" id="EE796681-6C60-CCD1-866C-F0AFD85B8E04">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:52:07 UTC</createdTime>
+<generatorID>D37BAD15-397B-2B9F-B57C-DBC68F9FE413</generatorID>
+<ownerDesignName>pbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4856F05A-8C04-2641-D46B-1BFD64E165D6" referredColumn="D0F53355-B26F-E1FB-EC14-1EA49A1401EB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="83499796-A7D5-FB70-CB09-3B03235493B2" name="server_PK">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:52:07 UTC</createdTime>
+<generatorID>ED628B86-F131-CB36-4EF7-05F0F7DE5B0D</generatorID>
+<ownerDesignName>pbd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9147E9A6-508B-037C-B65F-2EECD81587C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED7DAFE0-7F59-FCAE-7DF0-33DF6A5602BC" name="server_MAC_UN">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:52:07 UTC</createdTime>
+<generatorID>27F3232B-13CA-CBD4-8AAC-6CA941405360</generatorID>
+<ownerDesignName>pbd</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE796681-6C60-CCD1-866C-F0AFD85B8E04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38AE48CB-2E69-8F0A-0E16-601C6B185F24" name="server_switch_FK">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:52:07 UTC</createdTime>
+<generatorID>F921C921-B695-6243-9A4E-0E548670F53D</generatorID>
+<ownerDesignName>pbd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE796681-6C60-CCD1-866C-F0AFD85B8E04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

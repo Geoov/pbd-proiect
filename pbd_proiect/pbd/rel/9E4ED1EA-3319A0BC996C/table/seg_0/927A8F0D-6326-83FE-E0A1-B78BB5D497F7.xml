@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="927A8F0D-6326-83FE-E0A1-B78BB5D497F7" name="access_point">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:52:07 UTC</createdTime>
+<generatorID>ECDF383A-5CE4-185A-E5F8-2B35D7CBEAB1</generatorID>
+<ownerDesignName>pbd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MAC" id="B650815A-E364-0698-F0D5-DD2277E18C64">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:52:07 UTC</createdTime>
+<generatorID>01BB8366-897B-A163-3212-FF73058C3AAC</generatorID>
+<ownerDesignName>pbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 CHAR</dataTypeSize>
+<ownDataTypeParameters>45 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AP_ESSID" id="E32C9F83-8467-4195-18FC-50D1A9C6EAAB">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:52:07 UTC</createdTime>
+<generatorID>C7705AD0-1A85-1879-4F5D-7CC72279FA50</generatorID>
+<ownerDesignName>pbd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="device_type" id="97FE9382-36C3-4841-8BAE-6A74A7B04597">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:52:07 UTC</createdTime>
+<generatorID>1D6E2B63-DE27-2B7E-0F77-3E53FC9BFD7E</generatorID>
+<ownerDesignName>pbd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="402F4B70-51A9-E310-E42F-4782BB7B8714" name="access_point_PK">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:52:07 UTC</createdTime>
+<generatorID>086A712B-8C4B-04A8-4D49-E29365E2E495</generatorID>
+<ownerDesignName>pbd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B650815A-E364-0698-F0D5-DD2277E18C64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6E40C1FD-AA81-746C-DBDD-ED6F6F6A0325" name="switch">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:52:07 UTC</createdTime>
+<generatorID>16C9EC1D-E4A0-B860-E053-5D1EED0BBFCA</generatorID>
+<ownerDesignName>pbd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="port_id" id="E0F66C8F-AD02-D04A-E652-E68D3EB3C624">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:52:07 UTC</createdTime>
+<generatorID>36232F5A-7219-0B05-F9A4-C9393A015E5F</generatorID>
+<ownerDesignName>pbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAC" id="D0F53355-B26F-E1FB-EC14-1EA49A1401EB">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:52:07 UTC</createdTime>
+<generatorID>B776C9AB-921C-22E7-9441-46D32A579C57</generatorID>
+<ownerDesignName>pbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 CHAR</dataTypeSize>
+<ownDataTypeParameters>45 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VLAN" id="24B4DB0C-1DAA-C4F2-77E8-B6852355850B">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:52:07 UTC</createdTime>
+<generatorID>A3F40339-50D2-D1E7-0BBF-34A8DA212904</generatorID>
+<ownerDesignName>pbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="device_type" id="FE9BED17-E249-5FD3-033C-58C3217C9B08">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:52:07 UTC</createdTime>
+<generatorID>174E44D5-69ED-9F09-3610-06B2E0F8AFEB</generatorID>
+<ownerDesignName>pbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 CHAR</dataTypeSize>
+<ownDataTypeParameters>45 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="796F2617-19AA-99A8-D6E2-44AA02678142" name="switch_PK">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:52:07 UTC</createdTime>
+<generatorID>75BFF380-34E2-1F2B-4767-E5DE90AD88F6</generatorID>
+<ownerDesignName>pbd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0F66C8F-AD02-D04A-E652-E68D3EB3C624"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F93444EE-19BF-70F5-84FD-97495097DB25" name="switch_MAC_UN">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:52:07 UTC</createdTime>
+<generatorID>953A1C21-0EDD-70EA-C171-D7181C66FB31</generatorID>
+<ownerDesignName>pbd</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0F53355-B26F-E1FB-EC14-1EA49A1401EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

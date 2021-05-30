@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="361F2CC2-8A2F-AC29-5B6E-D177958071F6" name="devices">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:15:13 UTC</createdTime>
+<ownerDesignName>pbd</ownerDesignName>
+<engineerTo>
+<item key="9E4ED1EA-72B2-8AD6-1BE0-3319A0BC996C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="MAC" id="AB225488-56B5-591E-F2F4-BEEA7A7E34DC">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:49:03 UTC</createdTime>
+<ownerDesignName>pbd</ownerDesignName>
+<engineerTo>
+<item key="9E4ED1EA-72B2-8AD6-1BE0-3319A0BC996C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 CHAR</dataTypeSize>
+<ownDataTypeParameters>45 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IP" id="1A8877C7-A5AA-FE32-0B1B-AA23997AE879">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:15:13 UTC</createdTime>
+<ownerDesignName>pbd</ownerDesignName>
+<importedID>6EBBD0FF-DB57-7DD5-2F18-0312CA8FFB2C</importedID>
+<engineerTo>
+<item key="9E4ED1EA-72B2-8AD6-1BE0-3319A0BC996C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 CHAR</dataTypeSize>
+<ownDataTypeParameters>45 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="device_type" id="48900CB8-3F07-DD7C-6449-635876704BE5">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:15:13 UTC</createdTime>
+<ownerDesignName>pbd</ownerDesignName>
+<importedID>09BAE2DF-F18F-382A-9E74-652F40A8A4AC</importedID>
+<engineerTo>
+<item key="9E4ED1EA-72B2-8AD6-1BE0-3319A0BC996C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>105 CHAR</dataTypeSize>
+<ownDataTypeParameters>105 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OS" id="951076DD-3185-BE1F-7A3C-DFCC61CABA1C">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:15:13 UTC</createdTime>
+<ownerDesignName>pbd</ownerDesignName>
+<importedID>A6AC90FC-1EC8-B55B-4FF8-067968379FE3</importedID>
+<engineerTo>
+<item key="9E4ED1EA-72B2-8AD6-1BE0-3319A0BC996C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>105 CHAR</dataTypeSize>
+<ownDataTypeParameters>105 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B00B974F-95C5-333B-B200-123804D2AAD2" name="IP UK">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:15:13 UTC</createdTime>
+<ownerDesignName>pbd</ownerDesignName>
+<engineerTo>
+<item key="9E4ED1EA-72B2-8AD6-1BE0-3319A0BC996C" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>1A8877C7-A5AA-FE32-0B1B-AA23997AE879</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="2014DFEB-68AE-0D89-C8FA-CFE877EBA0AE" name="devices PK">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:49:11 UTC</createdTime>
+<ownerDesignName>pbd</ownerDesignName>
+<engineerTo>
+<item key="9E4ED1EA-72B2-8AD6-1BE0-3319A0BC996C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AB225488-56B5-591E-F2F4-BEEA7A7E34DC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

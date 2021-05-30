@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ABBA29C6-F7E7-DC7D-269F-97B4B3C643BD" name="router">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:15:13 UTC</createdTime>
+<ownerDesignName>pbd</ownerDesignName>
+<engineerTo>
+<item key="9E4ED1EA-72B2-8AD6-1BE0-3319A0BC996C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IP_Int_1" id="27DB5C86-C799-5F93-6599-27B43C421AA1">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:15:13 UTC</createdTime>
+<ownerDesignName>pbd</ownerDesignName>
+<importedID>23F20E43-8165-97C0-2253-95B1F3ED2CC4</importedID>
+<engineerTo>
+<item key="9E4ED1EA-72B2-8AD6-1BE0-3319A0BC996C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 CHAR</dataTypeSize>
+<ownDataTypeParameters>45 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IP_Int_2" id="01A56923-1709-0458-568A-E66DEF735551">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:15:13 UTC</createdTime>
+<ownerDesignName>pbd</ownerDesignName>
+<importedID>8865166C-9173-3B13-9217-511CCCA6216C</importedID>
+<engineerTo>
+<item key="9E4ED1EA-72B2-8AD6-1BE0-3319A0BC996C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 CHAR</dataTypeSize>
+<ownDataTypeParameters>45 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IP_Int_3" id="7CB31C28-135D-9773-F5B9-11BF00219B8A">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:15:13 UTC</createdTime>
+<ownerDesignName>pbd</ownerDesignName>
+<importedID>EC9C20AA-FEE8-0458-D84A-3CE3C8E2FF61</importedID>
+<engineerTo>
+<item key="9E4ED1EA-72B2-8AD6-1BE0-3319A0BC996C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 CHAR</dataTypeSize>
+<ownDataTypeParameters>45 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IP_Int_4" id="B8E87F6C-69A7-DC57-031C-79FC33DEAAA6">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:15:13 UTC</createdTime>
+<ownerDesignName>pbd</ownerDesignName>
+<importedID>81898776-2F75-2446-F9AB-71B3BFFCB09C</importedID>
+<engineerTo>
+<item key="9E4ED1EA-72B2-8AD6-1BE0-3319A0BC996C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 CHAR</dataTypeSize>
+<ownDataTypeParameters>45 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MAC" id="D5B7DD33-757B-A07F-9E13-FF3039FD8C72">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:28:43 UTC</createdTime>
+<generatorID>A048B1C7-E101-80B7-6780-9331E83CBF95</generatorID>
+<ownerDesignName>pbd</ownerDesignName>
+<engineerTo>
+<item key="9E4ED1EA-72B2-8AD6-1BE0-3319A0BC996C" value="true"/>
+</engineerTo>
+<referedAttribute>B776C9AB-921C-22E7-9441-46D32A579C57</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C1DB5F02-E24E-5D94-880A-3035E2D1A12D" name="IP_1 UK">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:15:13 UTC</createdTime>
+<ownerDesignName>pbd</ownerDesignName>
+<engineerTo>
+<item key="9E4ED1EA-72B2-8AD6-1BE0-3319A0BC996C" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>27DB5C86-C799-5F93-6599-27B43C421AA1</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="31B6BFA1-638A-BE18-3CEF-E1DBCC5256C5" name="IP_2 UK">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:15:13 UTC</createdTime>
+<ownerDesignName>pbd</ownerDesignName>
+<engineerTo>
+<item key="9E4ED1EA-72B2-8AD6-1BE0-3319A0BC996C" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>01A56923-1709-0458-568A-E66DEF735551</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="5A3F3636-7EE0-2107-6B6A-6F44602CF71B" name="IP_3 UK">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:15:13 UTC</createdTime>
+<ownerDesignName>pbd</ownerDesignName>
+<engineerTo>
+<item key="9E4ED1EA-72B2-8AD6-1BE0-3319A0BC996C" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>7CB31C28-135D-9773-F5B9-11BF00219B8A</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="239C9B7A-E1E6-2D53-A026-3763D17A64B8" name="IP_4 UK">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:15:13 UTC</createdTime>
+<ownerDesignName>pbd</ownerDesignName>
+<engineerTo>
+<item key="9E4ED1EA-72B2-8AD6-1BE0-3319A0BC996C" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>B8E87F6C-69A7-DC57-031C-79FC33DEAAA6</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="E8624C92-BEDE-AB04-0C6E-4DB18AF3BE84" name="router PK">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:47:15 UTC</createdTime>
+<ownerDesignName>pbd</ownerDesignName>
+<engineerTo>
+<item key="9E4ED1EA-72B2-8AD6-1BE0-3319A0BC996C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D5B7DD33-757B-A07F-9E13-FF3039FD8C72</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="32B4956E-F517-7A5B-A72D-D2115C8AA921" name="Key_6">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:47:51 UTC</createdTime>
+<ownerDesignName>pbd</ownerDesignName>
+<engineerTo>
+<item key="9E4ED1EA-72B2-8AD6-1BE0-3319A0BC996C" value="true"/>
+</engineerTo>
+<newElementsIDs>A048B1C7-E101-80B7-6780-9331E83CBF95</newElementsIDs>
+<usedAttributes>
+<attributeRef>D5B7DD33-757B-A07F-9E13-FF3039FD8C72</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

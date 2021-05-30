@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9E318D40-1D2D-3B2C-34E3-92C9997238B7" name="access_point_bridge">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:52:07 UTC</createdTime>
+<generatorID>1E367BEC-3372-9AAF-7A0C-A244D6E709BB</generatorID>
+<ownerDesignName>pbd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ESSID" id="653B7D76-31E3-5AB2-EAEB-D3EA9C23084D">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:52:07 UTC</createdTime>
+<generatorID>56194766-B8F1-586F-2483-CBAA90F19B1F</generatorID>
+<ownerDesignName>pbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 CHAR</dataTypeSize>
+<ownDataTypeParameters>45 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BSSID" id="96F35894-6CC0-68DD-4F74-17CE75951FF0">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:52:07 UTC</createdTime>
+<generatorID>E6D369A8-A17C-FBB1-1971-0D5973966844</generatorID>
+<ownerDesignName>pbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5008D51A-C294-C73B-2FEB-D969997E0F9B" name="access_point_bridge_PK">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:52:07 UTC</createdTime>
+<generatorID>592551AD-D0C2-741A-2356-926FE4038690</generatorID>
+<ownerDesignName>pbd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="653B7D76-31E3-5AB2-EAEB-D3EA9C23084D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="506AAD85-4467-1309-C678-EB7260582CD2" name="access_point_bridge_BSSID_UN">
+<createdBy>root</createdBy>
+<createdTime>2021-05-29 13:52:07 UTC</createdTime>
+<generatorID>0C145CA9-8A22-C953-6591-03CACF8B2814</generatorID>
+<ownerDesignName>pbd</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96F35894-6CC0-68DD-4F74-17CE75951FF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
